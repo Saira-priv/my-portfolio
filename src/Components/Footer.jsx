@@ -15,7 +15,7 @@ function Footer() {
           </a>
         ))}
       </p>
-      <p>&copy; {year} Afaq Ahmad. All rights reserved.</p>
+      <p>&copy; {year} Shafiqa Khan. All rights reserved.</p>
     </footer>
   )
 }
