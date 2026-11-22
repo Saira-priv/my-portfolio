@@ -1,5 +1,5 @@
 const steps = [
-  { id: 1, title: 'Understand', desc: 'Client ki requirements aur goals ko samajhna.' },
+  { id: 1, title: 'Listen', desc: 'I start by understanding your idea, your goals and who the website is for.' },
   { id: 2, title: 'Design', desc: 'Layout aur design plan karna, simple aur clean.' },
   { id: 3, title: 'Develop', desc: 'HTML, CSS, JavaScript aur React se build karna.' },
   { id: 4, title: 'Deliver', desc: 'Test karke time par final website dena.' },
