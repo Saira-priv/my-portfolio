@@ -8,6 +8,7 @@ import Projects from './Components/Projects'
 import Deliver from './Components/Deliver'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
+import Reveal from './Components/Reveal'
 
 function App() {
   const [dark, setDark] = useState(false)
@@ -16,10 +17,10 @@ function App() {
     <div className={dark ? 'app dark' : 'app'}>
       <Navbar />
       <Home />
-      <About />
+      <Reveal><About /></Reveal>
       <Education />
-      <Skills />
-      <Projects />
+      <Reveal><Skills /></Reveal>
+      <Reveal><Projects /></Reveal>
       <Deliver />
       <Contact />
       <Footer />
