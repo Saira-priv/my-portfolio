@@ -264,3 +264,4 @@ html { scroll-behavior: smooth; }
   opacity: 1;
   transform: translateY(0);
 }
+button:hover { background: red !important; }
